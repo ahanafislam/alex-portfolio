@@ -38,3 +38,25 @@ body {
     z-index: -1;
     transform: translate(-50%, -50%);
 }
+
+/* Style Service Card */
+.service-card {
+    width: 370px;
+    height: 390px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.service-card a::after {
+    content: url(../img/icons/arrow.png);
+    padding-left: 5px;
+    vertical-align: middle;
+}

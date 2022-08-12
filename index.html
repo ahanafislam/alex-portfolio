@@ -14,7 +14,7 @@
 </head>
 <body class="max-w-[1600px] md:px-0 xl:mx-auto">
     <!-- Start Navbar -->
-    <div class="navbar text-dark bg-white mx-auto md:h-[115px] md:pt-[35px] md:pb-[30px] md:px-0 border-b border-[#F1F1F1] md:px-[215px]">
+    <nav class="navbar text-dark bg-white mx-auto md:h-[115px] md:pt-[35px] md:pb-[30px] md:px-0 border-b border-[#F1F1F1] md:px-[215px]">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -44,11 +44,11 @@
             <li><a class="p-0 leading-[14px] hover:text-[#FF5733] bg-white text-3.5">Blog</a></li>
           </ul>
         </div>
-    </div>
+    </nav>
     <!-- End Navbar -->
     
     <!-- Start hero section -->
-    <div class="">
+    <section class="">
         <div class="text-center max-w-[666px] mx-auto">
             <img src="asset/img/alex.png" alt="alex-pic" class="mx-auto mt-20 mb-[35px]">
             <h1 class="text-2xl title brand-color leading-6 mb-5">Hello, Myself Alex....</h1>
@@ -56,11 +56,11 @@
             <p class="leading-[30px] text-lg max-w-[562px] mx-auto">Lorem ipsum dolor sit amet, consecttur adipiscing Orci fauff cibus urna, sed senectus iaculis leo condimentum. Maenas nec adipiscing neque, pellentesque in. Metus fusce.</p>
             <button class="leading-[15px] mt-[40px] bg-[#FF5733] text-white text-[16px] px-[40px] py-[19px] hover:py-[17px] rounded-[50px] font-bold hover:bg-white hover:text-[#FF5733] hover:border-2 hover:border-[#FF5733]">Know About Me</button>
         </div>
-    </div>
+    </section>
     <!-- End hero section -->
 
     <!-- Start Companies logo -->
-    <div class="flex flex-col justify-center md:flex-row mx-auto md:px-[229px] content-center mt-[100px]">
+    <section class="flex flex-col justify-center md:flex-row mx-auto md:px-[229px] content-center mt-[100px]">
         <div class="mx-auto">
             <img src="asset/img/logos/facebook.png" alt="facebook" class="mb-5 md:mr-[80px]"/>
         </div>
@@ -79,11 +79,11 @@
         <div class="mx-auto">
             <img src="asset/img/logos/tinder.png" alt="tinder"/>
         </div>
-    </div>
+    </section>
     <!-- End Companies logo -->
 
     <!-- Start Global Network Section -->
-    <div class="relative mt-[120px] mx-auto">
+    <section class="relative mt-[120px] mx-auto">
         <div class="global-network-bg md:w-[790px]"></div>
         <div class="flex flex-col text-center px-1 md:text-start md:px-0 md:flex-row content-center justify-center mx-auto max-w-[1170px] my-[88px] mx-auto">
             <div class="md:max-w-[526px] md:mr-[106px]">
@@ -95,7 +95,43 @@
                     ermentum venentis enim vel suspend wergisse eu magnis libe orci.</p>
             </div>
         </div>
-    </div>
+    </section>
     <!-- End Global Network Section -->
+
+    <!-- Start Service Section -->
+    <section class="max-w-[1370px] mx-auto mt-[160px]">
+        <h1
+            class="title text-dark text-5xl mb-[50px] text-center leading-[63px] pb-4 max-w-[422px] mx-auto"
+            style="
+                background: url(asset/img/underLine/services.png) right bottom no-repeat;
+            "
+        >Providing Services</h1>
+
+        <!-- Start Service Card Section -->
+        <div class="flex flex-col justify-center md:flex-row">
+            <div class="service-card mr-[30px]">
+                <img src="asset/img/icons/cloud.png" alt="cloud" class="mt-[53px]">
+                <h3 class="title text-dark text-2xl mt-[49.82px] mb-[20px] leading-[24px]">Research And Design</h3>
+                <p class="px-[22px]">Lorem ipsum dolor amet, consesd ctetur adipiscing elit. Malesa est sagittis et nuasslla ntis enim vel suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
+                <a href="#" class="mt-[25px] brand-color font-bold hover:text-orange-500 mb-[55px]">View Details</a>
+            </div>
+
+            <div class="service-card mr-[30px]">
+                <img src="asset/img/icons/bulp.png" alt="cloud" class="mt-[48px]">
+                <h3 class="title text-dark text-2xl mt-[40px] mb-[20px] leading-[24px]">User Interface Design</h3>
+                <p class="px-[22px]">Lorem ipsum dolor amet, consesd ctetur adipiscing elit. Malesa est sagittis et nuasslla ntis enim vel suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
+                <a href="#" class="mt-[25px] brand-color font-bold hover:text-orange-500 mb-[55px]">View Details</a>
+            </div>
+
+            <div class="service-card">
+                <img src="asset/img/icons/cart.png" alt="cloud" class="mt-[50px]">
+                <h3 class="title text-dark text-2xl mt-[51px] mb-[20px] leading-[24px]">User Experience Design</h3>
+                <p class="px-[22px]">Lorem ipsum dolor amet, consesd ctetur adipiscing elit. Malesa est sagittis et nuasslla ntis enim vel suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
+                <a href="#" class="mt-[25px] brand-color font-bold hover:text-orange-500 mb-[55px]">View Details</a>
+            </div>
+        </div>
+        <!-- End Service Card Section -->
+    </section>
+    <!-- End Service Section -->
 </body>
 </html>
