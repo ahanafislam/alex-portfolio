@@ -8,17 +8,19 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.22.0/dist/full.css" rel="stylesheet" type="text/css" />
     <!-- Tailwind CSS Link -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Main style link -->
+    <link rel="stylesheet" href="asset/css/style.css">
     <title>:: Alex Portfolio ::</title>
 </head>
-<body class="max-w-[1170px] mx-auto">
+<body class="max-w-[1600px] md:px-0 xl:mx-auto">
     <!-- Start Navbar -->
-    <div class="navbar bg-base-100">
+    <div class="navbar text-dark bg-white mx-auto md:h-[115px] md:pt-[35px] md:pb-[30px] md:px-0 border-b border-[#F1F1F1] md:px-[215px]">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </label>
-            <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+            <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-sm text-dark">
               <li><a>Home</a></li>
               <li><a>About</a></li>
               <li><a>Contact</a></li>
@@ -26,15 +28,20 @@
               <li><a>Blog</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-[16px]">helloalex.developer</a>
+          <a class="btn btn-ghost normal-case md:px-0 nav-logo hover:bg-white hover:text-[#FF5733]">
+            <div class="mr-2.5 border-2 rounded-full border-[#FF5733] py-[17.5px] px-[15px]">
+                <img src="asset/img/icons/mail.png" alt="mail-icon">
+            </div>
+            helloalex.developer
+          </a>
         </div>
         <div class="navbar-end hidden lg:flex">
-          <ul class="menu menu-horizontal p-0">
-            <li><a>Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Contact</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>Blog</a></li>
+          <ul class="menu menu-horizontal p-0 text-sm text-dark">
+            <li><a class="p-0 hover:text-[#FF5733] bg-white text-3.5 mr-[58px]">Home</a></li>
+            <li><a class="p-0 hover:text-[#FF5733] bg-white text-3.5 mr-[58px]">About</a></li>
+            <li><a class="p-0 hover:text-[#FF5733] bg-white text-3.5 mr-[58px]">Contact</a></li>
+            <li><a class="p-0 hover:text-[#FF5733] bg-white text-3.5 mr-[58px]">Portfolio</a></li>
+            <li><a class="p-0 hover:text-[#FF5733] bg-white text-3.5">Blog</a></li>
           </ul>
         </div>
     </div>

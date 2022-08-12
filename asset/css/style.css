@@ -1,0 +1,29 @@
+/* Importing google font */
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:wght@700&family=Roboto:wght@400;500;700&display=swap');
+
+/* Common style */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #888888;
+}
+
+.text-dark {
+    color: #222222;
+}
+
+.brand-color {
+    color: #FF5733;
+}
+
+.title {
+    font-family: 'Noticia Text', serif;
+    font-weight: 700;
+    color: #222222;
+}
+
+
+.nav-logo {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
