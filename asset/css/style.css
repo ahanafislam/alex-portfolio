@@ -53,10 +53,17 @@ body {
     text-align: center;
     font-size: 16px;
     line-height: 26px;
+    margin: 0 auto;
 }
 
 .service-card a::after {
     content: url(../img/icons/arrow.png);
     padding-left: 5px;
     vertical-align: middle;
+}
+
+.service-background {
+    max-width: 1370px;
+    height: 265px;
+    background-color: #F9F9F9;
 }
