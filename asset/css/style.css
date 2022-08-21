@@ -68,10 +68,18 @@ body {
     background-color: #F9F9F9;
 }
 
-/* Style for testimonial section */
-.btn-testimonial {
-    width: 50px;
-    height: 50px;
-    background: #EFEFEF;
+/* Style for project section */
+.project-card {
+    width: 570px;
+    height: 570px;
+    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 8.73%, rgba(196, 196, 196, 0) 54.45%); */
+    /* transform: rotate(180deg); */
 }
 
+.project-grid {
+    width: 570px;
+    height: 570px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 8.73%, rgba(196, 196, 196, 0) 54.45%);
+    transform: rotate(180deg);
+    position: absolute;
+}
