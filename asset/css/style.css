@@ -27,6 +27,25 @@ body {
     line-height: 16px;
 }
 
+/* Style hero section background */
+.hero-bg {
+    background-image: url('../img/hero-bg/r-1.png'),
+        url('../img/hero-bg/r-2.png'),
+        url('../img/hero-bg/r-3.png'),
+        url('../img/hero-bg/r-4.png'),
+        url('../img/hero-bg/r-5.png'),
+        url('../img/hero-bg/r-6.png'),
+        url('../img/hero-bg/r-7.png');
+    background-position: top 504px left,
+        top 260px left 118px,
+        top 622px left 315px,
+        top 228px right 300px,
+        top 545px right 130px,
+        top 145px right,
+        top 839px right;
+    background-repeat: no-repeat;
+}
+
 /* Style Global Network Section */
 
 .global-network-bg {
