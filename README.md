@@ -7,4 +7,4 @@ This is completely a dummy portfolio website.
 2. CSS;
 3. Tailwind CSS:
 
-[Click Here To View Live Project](https://ahanafislam.github.io/alex-portfolio/).
+[Click Here To View Live Project](https://alexportfoliosite.netlify.app/).
