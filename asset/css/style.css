@@ -38,7 +38,7 @@ body {
         url('../img/hero-bg/r-7.png');
     background-position: top 504px left,
         top 260px left 118px,
-        top 622px left 315px,
+        top 622px left 280px,
         top 228px right 300px,
         top 545px right 130px,
         top 145px right,
@@ -91,14 +91,33 @@ body {
 .project-card {
     width: 570px;
     height: 570px;
-    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 8.73%, rgba(196, 196, 196, 0) 54.45%); */
-    /* transform: rotate(180deg); */
+    margin: auto;
 }
 
-.project-grid {
+.project-gradient {
     width: 570px;
     height: 570px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 8.73%, rgba(196, 196, 196, 0) 54.45%);
     transform: rotate(180deg);
     position: absolute;
+}
+
+/* Media query for mobile view */
+@media only screen and (max-width: 640px) {
+    /* Mobile view for hero section */
+    .hero-bg {
+        background: inherit;
+    }
+
+    /* Mobile view for Projects section */
+    .project-card, .project-gradient {
+        width: 23rem;
+        height: 23rem;
+        background-size: 100% 100%;
+    }
+
+    /* Mobile view for footer section */
+    footer > p {
+        width: 23rem;
+    }
 }
